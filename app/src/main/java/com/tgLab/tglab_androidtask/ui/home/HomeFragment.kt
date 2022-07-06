@@ -53,7 +53,7 @@ class HomeFragment : Fragment(R.layout.fragment_home), TeamsAdapter.OnClickListe
     private fun setButtonTitle(i: Int){
         when(i){
             0 -> {
-                btn_sorter.setText(R.string.name)
+                btn_sorter.setText(R.string.no_sort)
             }
             1 -> {
                 btn_sorter.setText(R.string.name)
