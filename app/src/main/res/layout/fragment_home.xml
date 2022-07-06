@@ -27,10 +27,10 @@
         android:background="@drawable/bg_grey_rounded_16"
         android:textAllCaps="false"
         android:textColor="@color/black"
+        android:text="@string/name"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView"
-        tools:text="Name" />
+        app:layout_constraintTop_toTopOf="@+id/textView" />
 
     <TextView
         android:id="@+id/tv_name"

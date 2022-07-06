@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/drawable/bg_rounded_16.xml" value="0.2615" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/drawable/bg_rounded_32.xml" value="0.2615" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/layout/adapter_team_data_item.xml" value="0.33" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/layout/adapter_teams_players_item.xml" value="0.25" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/layout/fragment_players.xml" value="0.25" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/layout/fragment_team_data.xml" value="0.25" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/layout/team_data_item_adapter.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/algfit/Desktop/Tglab_AndroidTask/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
