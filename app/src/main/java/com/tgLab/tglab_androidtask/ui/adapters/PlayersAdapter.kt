@@ -40,6 +40,7 @@ class PlayersAdapter(private val listener: OnClickListener)  :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.itemView.apply {
+            //I reused the same layout for Teams
             tv_firstname_teamname.text = dataset[position].firstName
             tv_lastname_city.text = dataset[position].lastName
             tv_teamname_conference.text = dataset[position].team?.name
