@@ -35,14 +35,16 @@ class PlayersFragment : Fragment(R.layout.fragment_players), PlayersAdapter.OnCl
 
     private fun setListeners() {
         lifecycleScope.launch(Dispatchers.Main){
-            et_search.doOnTextChanged { _, _, _, _ ->
-                val filter = et_search.text.toString().lowercase().trim()
-                val filteredList = adapterList.filter {
-                    it.firstName?.lowercase()?.trim()?.contains(filter) ?: false
-                }
-                teamsAdapter.updateList(filteredList)
-            }
+            et_search.doOnTextChanged { _, _, _, _ -> filter() }
         }
+    }
+
+    private fun filter() {
+        val filter = et_search.text.toString().lowercase().trim()
+        val filteredList = adapterList.filter {
+            it.firstName?.lowercase()?.trim()?.contains(filter) ?: false
+        }
+        teamsAdapter.updateList(filteredList)
     }
 
     private fun bindData() {
