@@ -1,4 +1,4 @@
-package com.example.tglab_androidtask
+package com.tgLab.tglab_androidtask
 
 import org.junit.Test
 

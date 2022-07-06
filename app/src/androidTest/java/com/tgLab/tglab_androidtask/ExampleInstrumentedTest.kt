@@ -1,4 +1,4 @@
-package com.example.tglab_androidtask
+package com.tgLab.tglab_androidtask
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
