@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Tglab_Android Task</string>
+    <string name="home">Home</string>
+    <string name="players">Players</string>
+    <string name="conference">Conference</string>
+    <string name="city">City</string>
+    <string name="no_sort">No sort</string>
+    <string name="name">Name</string>
+    <string name="home_name">Home name</string>
+    <string name="home_score">Home Score</string>
+    <string name="visitor_name">Visitor Name</string>
+    <string name="visitor_score">Visitor Score</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="team">Team</string>
+    <string name="search">Search</string>
 </resources>
